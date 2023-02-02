@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto3parcial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/balanza"
+        android:label="Calculadora IMC"
+        android:roundIcon="@drawable/balanza"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto3parcial">
+        <activity
+            android:name=".MainActivityMenu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityServicio"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityAcercaDe"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitySplash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
